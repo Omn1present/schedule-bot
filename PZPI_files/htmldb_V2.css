@@ -1,0 +1,272 @@
+
+   /***** T13 Overload *****/
+  a:link,a:visited{text-decoration:none;font-size:-1;color:#7f7f7f;}
+  a:active,a:hover{text-decoration:underline;font-size:-1;color:#0066FF;}
+  .t13RegionButtons{background:#fff;vertical-align:middle; text-align:right;padding:2px;}
+  .t13RegionButtonsLeft{background:#fff;vertical-align:middle; text-align:left;padding:2px;white-space:nowrap;}
+  .t13ReportRegion .t13RegionButtonsLeft{display:inline; text-align:left;border-bottom:solid 1px #bbb;}
+  .t13RegionButtonsTopLine{border-top:1px #aaa solid; background:#fff;vertical-align:middle; text-align:right;padding:2px;}
+  .t13RegionTitle{text-align:left;padding:2px;white-space:nowrap;}
+  .t13RegionTitleCenter{text-align:center;padding:1px;white-space:nowrap;
+			border-top:1px #fff solid;border-bottom:1px #ccc solid;
+                        border-left:1px #fff solid;border-right:1px #ccc solid;}
+
+  /*****  table.t13FormRegion, *****/
+  table.t13Standard td.t13datatop{background:#efefef; text-align:center;
+                                                    border-top:1px #fff solid;border-bottom:1px #ccc solid;
+                                                    border-left:1px #fff solid;border-right:1px #ccc solid;
+                                                    padding:3px 6px;empty-cells:show;} 
+  table.t13Standard td.t13dataleft{background:#efefef; 
+                                                    border-top:1px #fff solid;border-bottom:1px #ccc solid;
+                                                    border-left:1px #fff solid;border-right:1px #ccc solid;
+                                                    padding:3px 6px 3px 6px;empty-cells:show;}
+  
+  table.t13Standard td.t13dataleft a:active {cursor: wait;}
+
+  table.t13Standard td.t13header{background:#7b9cbd; white-space:nowrap; font-weight:bold; color:#FFF; text-align:center;
+                                                    border-top:1px #fff solid;border-bottom:1px #ccc solid;
+                                                    border-left:1px #fff solid;border-right:1px #ccc solid;
+                                                    padding:2 0 2 0;empty-cells:show;}
+
+
+  
+  .t13SuccessMessage{margin:5px auto;font-size:11px;color:#333;font-weight:bold;
+                     background:#EEE;width:600px;background-repeat:no-repeat;
+                     padding:5px;border:1px #7b9cbd solid;border-right:none;
+                     border-left:none;}
+
+  a.htmldbNavLink{text-align:center;font-size:11px;float:right;display:block;margin:2px 4px;}
+  img.htmldbNavLink{display:block;}
+
+  /*GrayBoxRegion*/
+  table.htmldbGBR{border:1px #aaa solid;width:100%;margin:0 0 20px 0;}
+  table.htmldbGBR thead{background:#7b9cbd;color:#FFF;font-size:14px;}
+  table.htmldbGBR thead tr th{padding:2px;}
+  table.htmldbGBR thead tr th.T{text-align:left;width:100%;}
+  table.htmldbGBR thead tr th.BT{text-align:right;}
+  table.htmldbGBR thead tr th.BTL{text-align:left;}
+  table.htmldbGBR tbody tr td.B{background:#eee;padding:5px;font-size:12px;font-family:Arial, Helvetica, Geneva, sans-serif;}
+
+  table.htmldbGBR_GS{border:1px #aaa solid;width:99%;margin:0 0 20px 0;}
+  table.htmldbGBR_GS thead{background:#eee;color:#000;font-size:14px;}
+  table.htmldbGBR_GS thead tr th{padding:2px;}
+  table.htmldbGBR_GS thead tr th.T_GS{text-align:left;}
+  table.htmldbGBR_GS thead tr th.BT_GS{text-align:right;}
+  table.htmldbGBR_GS tbody tr td.B_GS{background:#fff;padding:5px;font-size:12px;font-family:Arial, Helvetica, Geneva, sans-serif;}
+
+  /*FormRegionWhite_IAS*/
+  .t13RegionTitleWhite{text-align:center;padding:2px;}
+  .t13RegionBodyWhite {padding:5px;background-color:#FFF;font-size:12px;font-family:Arial, Helvetica, Geneva, sans-serif;}
+
+  /*Hide and Show Region IAS*/
+  table.htmldbShowHide{margin:0 0 10px 0}
+  th.htmldbShowHide{font-weight:bold;font-size:12px;text-align:left;cursor:pointer;cursor:pointer;}
+  th.htmldbShowHide img{vertical-align:middle;margin:0 5px 0 0;}
+  th.htmldbShowHide span{vertical-align:middle;}
+  td.htmldbShowHide{padding:4px;font-size:12px;}
+
+  /***** Labesl *****/
+  .NoLabel { display:none;}
+
+  a.OptionalLabelwithHelp,.OptionalLabel,
+{
+    padding:0 5px 0 5px;
+    color:#7f7f7f;
+    text-decoration:none;
+    font-size:10pt;
+    white-space:nowrap;}
+     /* Required */
+  a.RequiredLabelwithHelp,.RequiredLabel {
+    padding:0 5px 0 5px;
+    color:#7f7f7f;
+    text-decoration:none;
+    font-size:10pt;
+    white-space:nowrap;}
+  a.OptionalLabelwithHelp{cursor:help;}
+  a.RequiredLabelwithHelp{cursor:help;}
+
+	/***** Hint *****/
+  .hdiv{ 
+	position: absolute;
+	visibility: hidden;
+	background-color: #FFF6DD; 
+	border: 1px #936A00 solid; 
+	font: 11px MS Sans Serif;
+	color: #000080;
+	padding: 2px;
+       }
+
+   /***** Lists *****/
+  table.htmldbTabbedNavigationList{margin:0 0 5px 0;border-bottom:2px solid #7B9CBD;}
+  table.htmldbTabbedNavigationList td{padding:0;white-space:nowrap;}
+  table.htmldbTabbedNavigationList a:link, table.htmldbTabbedNavigationList a:visited{display:block;color:#15528E;font-size:12px;font-weight:bold;padding:0 6px 8px 6px;text-decoration:none;}
+  table.htmldbTabbedNavigationList a.tabcurrent:link, table.htmldbTabbedNavigationList a.tabcurrent:visited, table.htmldbTabbedNavigationList a:hover{padding:0 6px 8px 6px;display:block;background:transparent url(../tab_rounded_Blue_IAS.gif) no-repeat scroll center bottom;color:#000;font-weight:bold;font-size:12px;}
+  ul.htmldbTabbedNavigationList{border-bottom:2px solid #7B9CBD;margin:0;margin-bottom:15px;padding:0 0 20px 6px;}
+  ul.htmldbTabbedNavigationList li{display:block;float:left;list-style-type:none;margin:0;padding:0;white-space:nowrap;}
+  ul.htmldbTabbedNavigationList a:link, ul.htmldbTabbedNavigationList a:visited{color:#15528E;float:left;font-size:12px;font-weight:bold;font-weight:bold;line-height:14px;padding:0 6px 6px;text-decoration:none;}
+  ul.htmldbTabbedNavigationList a.current:link, ul.htmldbTabbedNavigationList a.current:visited, ul.htmldbTabbedNavigationList a:hover{background:transparent url(../tab_rounded_Blue_IAS.gif) no-repeat scroll center bottom;color:#000;font-weight:bold;}
+
+  table.htmldbTabbedNavigationList_GS{margin:0 0 5px 0;border-bottom:2px solid #666;}
+  table.htmldbTabbedNavigationList_GS td{padding:0;white-space:nowrap;}
+  table.htmldbTabbedNavigationList_GS a:link, table.htmldbTabbedNavigationList_GS a:visited{display:block;color:#666;font-size:12px;font-weight:bold;padding:0 6px 8px 6px;text-decoration:none;}
+  table.htmldbTabbedNavigationList_GS a.tabcurrent:link, table.htmldbTabbedNavigationList_GS a.tabcurrent:visited, table.htmldbTabbedNavigationList_GS a:hover{padding:0 6px 8px 6px;display:block;background:transparent url(../tab_rounded_gray_IAS.gif) no-repeat scroll center bottom;color:#000;font-weight:bold;font-size:12px;}
+  ul.htmldbTabbedNavigationList_GS{border-bottom:2px solid #666;margin:0;margin-bottom:15px;padding:0 0 20px 6px;}
+  ul.htmldbTabbedNavigationList_GS li{display:block;float:left;list-style-type:none;margin:0;padding:0;white-space:nowrap;}
+  ul.htmldbTabbedNavigationList_GS a:link, ul.htmldbTabbedNavigationList_GS a:visited{color:#666;float:left;font-size:12px;font-weight:bold;font-weight:bold;line-height:14px;padding:0 6px 6px;text-decoration:none;}
+  ul.htmldbTabbedNavigationList_GS a.current:link, ul.htmldbTabbedNavigationList_GS a.current:visited, ul.htmldbTabbedNavigationList_GS a:hover{background:transparent url(../tab_rounded_gray_IAS.gif) no-repeat scroll center bottom;color:#000;font-weight:bold;}
+
+     /***** Anchors List *****/
+  .RegionQuickLinks a,.RegionQuickLinks a:link,.RegionQuickLinks a:visited,
+  .htmldbQuickLinks,.htmldbQuickLinks a:link,.htmldbQuickLinks a:visited,
+  a.itemLink:visited,a.itemLink:link{white-space:nowrap;margin:0 5px 0px 5px;text-decoration:none;font-size:11px;color:#811919;}
+  .RegionQuickLinks a:hover,.htmldbQuickLinks a:hover,a.itemLink:hover{text-decoration:underline;color:#f00;}
+     /***** Breadcrumb *****/
+  a.Breadcrumb:link,a.Breadcrumb:visited{vertical-align:middle;line-height: 16px;white-space:nowrap;float:left;font-weight:bold;color:#666;text-decoration:none;}
+  a.Breadcrumb:hover{white-space:nowrap;color:#0066FF;line-height: 16px;vertical-align:middle;}
+  span.Breadcrumb{white-space:nowrap;color:#0066FF;float:left;line-height: 16px;vertical-align:middle;}
+  span.BreadcrumbSep ,span.brdCrmSep{white-space:nowrap;padding:0 3px;float:left;line-height: 16px;vertical-align:middle;}
+
+  /***** SqShinyButton *****/
+  table.htmldbBSW{border:0;display:inline;margin:0 0 0 5px;white-space:nowrap;width:auto;}
+  table.htmldbBSW td.L{width:6px;height:24px;background-image:url(../small_button_left2.gif);}
+  table.htmldbBSW td.C{height:24px;background-image:url(../small_button_middle2.gif);background-repeat:repeat-x;white-space:nowrap;}
+  table.htmldbBSW td.R{width:6px;height:24px;background-image:url(../small_button_right2.gif);}
+  table.htmldbBSW td.C a:visited,table.htmldbBSW td.C a{text-decoration:none;font-size:11px;color:#000;}
+
+  table.htmldbBSWLF{border:0;display:inline;margin:0 0 0 5px;white-space:nowrap;width:auto;}
+  table.htmldbBSWLF td.L{width:6px;height:24px;background-image:url(../small_button_left2_gray.gif);}
+  table.htmldbBSWLF td.C{height:24px;background-image:url(../small_button_middle2_gray.gif);background-repeat:repeat-x;white-space:nowrap;}
+  table.htmldbBSWLF td.R{width:6px;height:24px;background-image:url(../small_button_right2_gray.gif);}
+  table.htmldbBSWLF td.C a:visited,table.htmldbBSWLF td.C a{text-decoration:none;font-size:11px;color:#000;}
+
+  /***** FindEdit *****/
+  .find_edit {width:150px;background:#fff;
+              background-image:url(../input_IAS.gif);
+              background-repeat:no-repeat;border:1px solid #7f9db7;
+              height:22px;padding:2px 0 0 23px;}
+
+  .find_edit_stud {width:300px;background:#fff;
+			  height:200px;
+              background-image:url(../input_IAS.gif);
+              background-repeat:no-repeat;border:1px solid #7f9db7;
+              height:22px;padding:2px 0 0 23px;
+			  padding-right:6px;}
+
+
+  /***** RefreshButton *****/
+  .refresh_button {margin-left:3px;}
+
+  /***** T17 Overload *****/
+  #t17ContentBody{border-top:0px solid #000;}
+  #t17Tabs{border-bottom:1px solid #000;
+           text-align:right;white-space:nowrap;}
+     /*Tabs*/
+  a.t17CurrentTab,a.t17Tab{border-right:1px solid #000;
+      border-left:1px solid #000;
+      border-top:1px solid #000;
+      font-weight:bold;text-decoration:none;margin:0;padding:4px;}
+  a.t17Tab:hover,a.t17CurrentTab{color:#000 !important;}
+    /*hacks for table buttons*/
+  .t17CurrentTab,.t17Tab{display:-moz-inline-box;}
+    /*hacks for table buttons*/
+
+    /*t17Breadcrumbs*/
+  .t17Breadcrumbs{font-weight:bold;padding:2px 5px;background-color:#DDD;
+                  margin:0 0 3px 0;vertical-align:middle;
+                  border-bottom:1px solid #000;}
+
+  .t17NewBottom{font-size:10px;padding:2px 0;background-color:#e6e7e7;border-bottom:1px solid black;border-top:1px solid black;}
+  .t17NewBottom1{font-size:10px;float:left;padding:0 0 0 10px;}
+  .t17NewBottom2{font-size:10px;float:right;padding:0 10px 0 0;}
+
+  .t17RegionHeaderWhite {font-family: arial, helvetica, sans-serif;
+         font-size:large;color:#aaa;text-align:center;
+         border-bottom:1px solid #CCC;font-weight:bold;
+         padding:2px 8px;white-space:nowrap;}
+
+     /*t17Standard*/
+  .t17Standard{border:1px solid #AAA;border-collapse: collapse;}
+  .t17Standard th.t17ReportHeader{border:1px solid #AAA;}
+  .t17Standard td.t17data{border:1px solid #AAA;}
+
+  .t17StandardAlternatingRowColors{border:1px solid #AAA;border-collapse: collapse;}
+  .t17StandardAlternatingRowColors th.t17ReportHeader{border:1px solid #AAA;border-left:none;}
+  .t17StandardAlternatingRowColors td.t17data{border:1px solid #AAA;border-left:none;border-top:none;}
+  .t17StandardAlternatingRowColors td.t17dataalt{background-color:#EEE;border:1px solid #AAA;border-left:none;border-top:none;}
+
+	/***** Login Region *****/
+  .htmldbInstruct600{width:450px;color:#000;font-size:12px;padding:5px;text-align:justify;}
+  table.htmldbLoginR {color:#000;width:300px;}
+  table.htmldbLoginR thead tr th.T{color:#777;text-align:left;font-size:16px; border-bottom:1px solid #b9b9b9;}
+  table.htmldbLoginR tbody tr td.B{font-size:12px;padding:5px;text-align:right;}
+  input.htmldbButton{margin:2px 5px;text-align:center;vertical-align:middle;padding:0 2px;font-weight:bold;}
+
+	/***** Title Region *****/
+  th.headregWithTitle {color:#777777;text-align:left;}
+
+	/***** InRegion PageEdit Button to Top *****/
+  td.htmldbPageEditButtons{background-color:#ffffff;
+    text-align:right;
+    padding:4px;}
+
+  td.ReadOnlyEdit {
+   color:#666666;
+   font-weight:bold;
+   font-size:12px;
+   padding:2px;
+   }
+
+  .SotrTitle { font-weight:bold;
+    font-size:1
+}
+
+
+
+  
+  /*------------------------Chen---------------------------------*/
+#data {width:140px;}
+#about{width:250px;}
+sup {font-size:11px}
+
+table.t13SidebarAltChen{margin:0 0 0 0;border:2;}
+table.t13SidebarAltChen thead tr th{background-color:#ddd;font-size:12px;}
+table.t13SidebarAltChen thead tr th.L{background-repeat : no-repeat;background-image:url(../../themes/theme_13/left_curve.gif);width:10px;background-position : top left;}
+table.t13SidebarAltChen thead tr th.C{text-align:center;}
+table.t13SidebarAltChen thead tr th.R{background-repeat : no-repeat;background-image:url(../../themes/theme_13/right_curve.gif);width:10px;background-position : top right;}
+table.t13SidebarAltChen tbody tr td.B{border:1px #ddd solid;border-top:none;font-size:12px;padding:12 6 6 6;}
+
+
+
+
+
+  table.t13Standard td.t13header{background:#7b9cbd; 
+                                                    border-top:1px #fff solid;border-bottom:1px #ccc solid;
+                                                    border-left:1px #fff solid;border-right:1px #ccc solid;
+                                                    padding:3px 6px 3px 6px;empty-cells:show;}
+
+.t13TableHeader {background-color:red;font-size:12px;}
+
+table.t13Chen{margin:0 0 0 0;border:2;}
+table.t13Chen thead tr th{background-color:#ddd;font-size:12px;}
+table.t13Chen thead tr th.L{background-repeat : no-repeat;background-image:url(../../themes/theme_13/left_curve.gif);width:10px;background-position : top left;}
+table.t13Chen thead tr th.C{text-align:center;}
+table.t13Chen thead tr th.R{background-repeat : no-repeat;background-image:url(../../themes/theme_13/right_curve.gif);width:10px;background-position : top right;}
+table.t13Chen tbody tr td.B{border:1px #ddd solid;border-top:none;font-size:12px;padding:12 6 6 6;}
+
+/*------------------------journal---------------------------------*/
+table.t13Standard td.t13datajournalright{background:#efefef;
+                                        border-top:1px #fff solid;border-bottom:1px #ccc solid;
+                                        border-left:1px #fff solid;border-right:1px gray solid;
+                                        padding:3px 2px; empty-cells:show;}
+table.t13Standard td.t13datajournalleft{background:#efefef; 
+                                        border-top:1px #fff solid;border-bottom:1px #ccc solid;
+                                        border-left:1px gray solid;border-right:1px #ccc solid;
+                                        padding:3px 2px; empty-cells:show;}                                        
+table.t13Standard td.t13datajournal{background:#efefef;
+                                        border-top:1px #fff solid;border-bottom:1px #ccc solid;
+                                        border-left:1px #fff solid;border-right:1px #ccc solid;
+                                        padding:3px 2px; empty-cells:show;}
+/*--------------------------API-----------------------------------*/
+ div.txt div  {text-indent: 15px; }
+  
+  
